@@ -9,14 +9,15 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        
+        <link rel="icon" href="img/favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/estilos.css">
          <link rel="stylesheet" href="css/bootstrap.min.css">
          <link rel="stylesheet" href="css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#menu">
 
     <header>
         <div class="container">
@@ -30,19 +31,19 @@
           
 
             <nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
-                <a href="" class="c-1 d-flex align-items-center">
+                <a href="#portafolio" class="c-1 d-flex align-items-center">
                     <div class="d-flex flex-column text-center">
                         <span>Portafolio</span>
                         <i class="fa fa-briefcase" aria-hidden="true"></i>
                     </div>
                 </a>
-                <a href="" class="c-2 d-flex align-items-center">
+                <a href="#sobre" class="c-2 d-flex align-items-center">
                     <div class="d-flex flex-column text-center">
                         <span>Sobre mi</span>
                         <i class="fa fa-user-o" aria-hidden="true"></i>
                     </div>
                 </a>
-                <a href="" class="c-3 d-flex align-items-center">
+                <a href="#contacto" class="c-3 d-flex align-items-center">
                     <div class="d-flex flex-column text-center">
                         <span>Contacto</span>
                             <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
@@ -75,7 +76,7 @@
         <div class="container">
             <div class="row portafolio">
                 <div class="col">
-                    <h2 class="titulo"> Portafolio</h2>
+                    <h2 class="titulo" id="portafolio"> Portafolio</h2>
                     <div class="row galeria justify-content-center">
                         <div class=" contenedor-imagen col-6 col-lg-4">
                             <a href="" data-toggle="modal" data-target="#modal">
@@ -128,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="row acerca-de align-items-center">
+            <div class="row acerca-de align-items-center"  id="sobre">
                 <div class="col-12 col-lg-4 foto">
                     <img src="img/mia.jpg" class="rounded-circle img-fluid">
                     <p class="nombre">Isaura Rizo</p>
@@ -169,7 +170,7 @@
 
             <div class="row contacto justify-content-center">
                 <div class="col-12 col-lg-8">
-                    <h2 class="titulo">Contacto</h2>
+                    <h2 class="titulo" id="contacto">Contacto</h2>
                     <form action="" class="formulario">
                         <div class="form-group row">
                             <div class="col-12 col-md-6">
@@ -195,9 +196,9 @@
         <div class="container">
             <div class="row redes-sociales justify-content-center">
                 <div class="col-auto">
-                    <a href="" class="icono"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a>
-                    <a href="" class="icono"><i class="fa fa-youtube-play youtube" aria-hidden="true"></i></a>
-                     <a href="" class="icono"><i class="fa fa-github git" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/ysa.rizo" class="icono" target="_blank"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmK9TaQpGdXhczeHqCZdfnQ?view_as=subscriber" class="icono" target="_blank"><i class="fa fa-youtube-play youtube" aria-hidden="true" ></i></a>
+                     <a href="https://github.com/Ysabrosa" class="icono" target="_blank"><i class="fa fa-github git" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
