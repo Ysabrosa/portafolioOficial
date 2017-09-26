@@ -274,3 +274,83 @@ header  span i{
 .redes-sociales .git{
 	 background-color: black;
 }
+
+/** mediqueries **/
+@media screen and ( max-width: 1199px){
+
+}
+
+ @media screen and ( max-width: 991px){
+ 	.logo{
+ 		height: 76px;
+ 	}
+
+ 	.menu{
+ 		min-height:76px;
+ 	}
+
+ 	.menu a{
+ 		display: block;
+ 		padding:15px 0!important;
+ 		width: 100%;
+ 		
+ 	}
+
+ 	.menu a div{
+ 		width: 100%;
+ 	}
+
+ 	.portafolio .galeria .contenedor-imagen:nth-child(1){
+ 		order: 1;
+ 	}
+ 	.portafolio .galeria .contenedor-imagen:nth-child(2){
+ 		order: 3;
+ 	}
+ 	.portafolio .galeria .contenedor-imagen:nth-child(6){
+ 		order: 1;
+ 	}
+ 	.portafolio .galeria .contenedor-imagen:nth-child(2){
+ 		order: 2;
+ 	}
+ 	.portafolio .galeria .contenedor-imagen:nth-child(5){
+ 		order: 1;
+ 	}
+ 	.portafolio .galeria .contenedor-imagen:nth-child(4){
+ 		order: 1;
+ 	}
+ 	.portafolio .galeria .contenedor-imagen:nth-child(7){
+ 		order: 1;
+ 	}
+
+ 	.modal .modal-dialog{
+ 		width: 90%;
+ 	}
+ 	.modal .modal-dialog .modal-content img{
+ 		width: 100%;
+ 	}
+ 
+ @media screen and (max-width: 575px){
+ 	header{
+ 		margin-top: 0!important;
+ 		text-align: center;
+ 	}
+
+ 	header .logo h2,
+ 	header .logo p{
+
+ 		font-size: 25px;
+ 	}
+ 	.menu a{
+ 		display: block;
+ 		padding:10px 0!important;
+ 		
+ 		
+ 	}
+
+ 	.redes-sociales i{
+ 		width: 50px;
+ 		height: 50px;
+ 		line-height: 50px;
+ 		font-size: 20px;
+ 	}
+ }
